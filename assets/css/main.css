@@ -2511,6 +2511,28 @@ section,
   width: 100%;
 }
 
+
+/* GLASS EFFECT */
+.backdrop-blur {
+  backdrop-filter: blur(10px);
+}
+
+/* SKILL CARD HOVER */
+.skill-card {
+  transition: 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* TIMELINE */
+.timeline-item {
+  border-left: 2px solid rgba(56,189,248,0.5);
+  padding-left: 15px;
+}
+
 .portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-next,
 .portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-prev {
   background-color: var(--contrast-color);
